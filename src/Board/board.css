@@ -1,0 +1,13 @@
+.row-container {
+    height: 8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.col-val {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: black 2px solid;
+    font-size: 40px;
+}
